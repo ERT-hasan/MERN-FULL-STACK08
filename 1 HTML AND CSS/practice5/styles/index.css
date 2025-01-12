@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: darkslategrey;
+    padding: 10px;
+    color: white;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin-left: 30px;
+    display: inline-block;
+    font-size: 35px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: #7fffd44a;
+}
+.container{
+    background-color: darkkhaki;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+}
+.my-circle{
+    background-color: rgb(1, 26, 1);
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    border-radius: 50%;
+}
+footer{
+    background-color: darkslategrey;
+    padding: 15px 0px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+}

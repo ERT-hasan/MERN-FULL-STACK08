@@ -1,0 +1,23 @@
+
+*{
+    margin: 1;
+    padding: 1;
+}
+#my-div{
+    color: lawngreen;
+    background-color: blueviolet;
+    width: 30%;
+
+}
+#my-para{
+    color: darkslategrey;
+    background-color: aqua;
+    width: 30%;
+
+}
+#code{
+    color: chartreuse;
+    background-color: blue;
+    width: 30%;
+
+}

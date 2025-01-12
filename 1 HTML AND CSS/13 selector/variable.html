@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variable css</title>
+    <style>
+        html{
+            --main-bg-color:#980909;
+            --border-color:#000000;
+            --main-box-color:#329530;
+            --main-text-color: #080b51;
+
+        }
+        .container{
+            background-color: var(--main-bg-color);
+            display: flex;
+            padding: 10px;
+            border: 2px solid var(--border-color);
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            border: 2px solid var(--border-color);
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--main-text-color);
+            background-color: var(--main-box-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box box1">Box 1</div>
+    <div class="box box2">Box 2</div>
+    <div class="box box3">Box 3</div>
+    <div class="box box4">Box 4</div>
+</div>
+    
+</body>
+</html>

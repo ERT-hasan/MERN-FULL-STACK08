@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    background-color: chartreuse;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    text-align: center;
+}
+#box1{
+    position: static;
+}
+#box2{
+    position: relative;
+    top: 22px;
+    right: 5px;
+}
+#box3{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 1; 
+}
+#box4{
+    position: fixed;
+    top: 22px;
+    right: 40px; 
+}
